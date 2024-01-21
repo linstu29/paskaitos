@@ -1,0 +1,31 @@
+:root {
+    --rose: #ff6f69;
+    --gold: #ffcc5c;
+    --sand: #ffeead;
+}
+
+
+html, body {
+    background: var(--sand);
+    color: var(--rose);
+}
+
+h2, p {
+    color: var(--rose);
+}
+
+#navbar a {
+    color: var(--rose);
+}
+
+.item {
+    background: var(--gold);
+}
+
+button {
+    background: var(--rose);
+    color: var(--gold);
+}
+
+
+

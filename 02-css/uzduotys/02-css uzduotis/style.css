@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    order: 5px solid;
+    margin: auto;
+    width: 50%;
+    left: 20%;
+    right: 20%;
+    padding: 0.2em;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+a {
+    color: skyblue;
+    display: block;
+    text-align: center;
+    width: 700%;
+    left: 20%;
+    right: 50%;
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(./nuotraukos/pexels-photo-355288.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    margin: 55px;
+    right: 50px;
+    top: 10px;
+}
+    header #aprasymas h1 {
+        margin: 0;
+        display: block;
+        background-color: aqua;
+        color: black;
+        font-size: 5em bold;
+        letter-spacing: 0.2em;
+    }
+
+header #aprasymas {
+    margin: 0;
+    display: inline;
+    background-color: aqua;
+    width: 20%;
+    position: absolute;
+    left: 60vw;
+    top: 10vh;
+   
+}
+
+
+
+
+#div1 {
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 50px;
+    width: 70%;
+
+
+
+}
