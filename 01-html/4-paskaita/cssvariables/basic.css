@@ -41,18 +41,26 @@ p {
     text-align: center;
 }
 
-p {
-    font-size: 18px;
-}
-
 footer {
-    position: absolute;
+    position:absolute;
     bottom: 0;
     width: 100%;
+    --def-size: 18px;
+}
+
+p  {
+    font-size: var(--def-size);
 }
 
 footer > p {
-    font-size: 12px;
+    --def-size:18px;
+    font-size: var(--def-size);
+}
+
+@media screen and (max-width:768px) {
+    footer> p {
+        --def-size: 14px;
+    } 
 }
 
 button {

@@ -1,0 +1,34 @@
+#div1 {
+    background-image: url(./photo/office\ worker\(f\).png);
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 25vh;
+    position: relative;
+    margin: 40px;
+    left: 30%;
+    right: 30%;
+}
+
+#div1 h1 {
+    background-color: white;
+    width: 40%;
+    margin: 10px;
+    padding: 15px;
+    position: absolute;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    top: 15vh;
+    right: 9vw;
+}
+
+#div2 {
+    background-color: pink;
+    background-position: center;
+    width: 20%;
+    height: 25vh;
+    position: relative;
+    margin: 40px;
+    left: 30%;
+    right: 30%;
+}

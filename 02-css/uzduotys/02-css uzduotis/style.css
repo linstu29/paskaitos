@@ -36,18 +36,12 @@ header {
     height: 75vh;
     position: relative;
     margin: 55px;
-    right: 50px;
     top: 10px;
+    right: 50px;
+    
 }
-    header #aprasymas h1 {
-        margin: 0;
-        display: block;
-        background-color: aqua;
-        color: black;
-        font-size: 5em bold;
-        letter-spacing: 0.2em;
-    }
 
+    
 header #aprasymas {
     margin: 0;
     display: inline;
@@ -55,10 +49,16 @@ header #aprasymas {
     width: 20%;
     position: absolute;
     left: 60vw;
-    top: 10vh;
-   
+    top: 10vh;  
 }
 
+header #aprasymas h1 {
+    margin: 0;
+    display: block;
+    background-color: aqua;
+    color: black;
+    font-size: 2em bold;
+}
 
 
 
@@ -66,9 +66,6 @@ header #aprasymas {
     color: white;
     text-align: center;
     padding: 0;
-    margin: 50px;
+    margin: 70px;
     width: 70%;
-
-
-
 }

@@ -1,39 +1,191 @@
 body {
-    background-color: papayawhip;
+    background-color: pink;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+    margin: 50px;
+}
+
+#div1 {
+    background-color: white;
+    margin: 30px auto;
+    width: 50%;
+    padding: 20px;
 }
 
 h1 {
-    background-color: white;
-    background-size: 150px;
-    order: 5px solid;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+
+    padding-bottom: 20px;
     text-align: center;
 
 }
 
 #pirmas-paragrafas {
-    background-color: white;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-    }
 
-    #pirmas paragrafas  form {
-        background-color: papayawhip;
-        padding: 1em;
-        position: fixed;
-        bottom: 2em;
-        right: 2em;
-        margin: 0;
-       }
-    
-        #placiau a {
-            color: black;
-            text-decoration: none;
-        }
-    
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#placiau {
+    text-align: center;
+}
+
+#placiau a {
+    color: black;
+    text-decoration: none;
+    background-color: pink;
+    padding: 10px 15px;
+}
+
+a:hover {
+    color: #2d383a;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#div2 {
+    background-color: white;
+    margin: 30px auto;
+    width: 50%;
+    padding: 20px;
+}
+
+#div2 h1 {
+
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+#antras-paragrafas {
+
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#placiau {
+    text-align: center;
+}
+
+#placiau a {
+    color: black;
+    text-decoration: none;
+    background-color: pink;
+    padding: 10px 15px;
+}
+
+a:hover {
+    color: #2d383a;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#div3 {
+    background-color: white;
+    margin: 30px auto;
+    width: 50%;
+    padding: 20px;
+}
+
+#div3 h1 {
+
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+#trecias-paragrafas {
+
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#placiau {
+    text-align: center;
+}
+
+#placiau a {
+    color: black;
+    text-decoration: none;
+    background-color: pink;
+    padding: 10px 15px;
+}
+
+a:hover {
+    color: #2d383a;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#div4 {
+    background-color: white;
+    margin: 30px auto;
+    width: 50%;
+    padding: 20px;
+}
+
+#div4 h1 {
+
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+#ketvirtas-paragrafas {
+
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#placiau {
+    text-align: center;
+}
+
+#placiau a {
+    color: black;
+    text-decoration: none;
+    background-color: pink;
+    padding: 10px 15px;
+}
+
+a:hover {
+    color: #2d383a;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#div5 {
+    background-color: white;
+    margin: 30px auto;
+    width: 50%;
+    padding: 20px;
+}
+
+#div5 h1 {
+
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+#penktas-paragrafas {
+
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#placiau {
+    text-align: center;
+}
+
+#placiau a {
+    color: black;
+    text-decoration: none;
+    background-color: pink;
+    padding: 10px 15px;
+}
+
+a:hover {
+    color: #2d383a;
+    position: relative;
+    padding-bottom: 10px;
+}
