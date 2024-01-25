@@ -13,6 +13,8 @@ body {
     border-radius: 12px;
     background-color: white;
     box-shadow: 0 0 4px #797373;
+    margin-bottom: 40px;
+    
 }
 
 .image-block {
@@ -61,11 +63,10 @@ body {
     size: 14px;
     line-height: 22px;
     letter-spacing: 0.2px;
-    padding-bottom: 10px;
 }
 
 .card h3 {
-   
+    padding-bottom: 10px;
     color: #121212;
     font-weight: 700;
     size: 20px;
@@ -111,7 +112,6 @@ body {
 }
 
 .image-block2 {
-    
     background-image: url(./photos/couple.png);
     background-size: cover;
     width: 100%;

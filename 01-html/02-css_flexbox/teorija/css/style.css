@@ -1,0 +1,30 @@
+htm, body, main, .container {
+    height: 100%;
+}
+
+.conteiner {
+  /*  max-width: 600px; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px 10px;
+
+}
+
+main {
+    display: flex;
+    /* flex-wrap:nowrap; */
+    /* flex-wrap:nowrap; */
+    flex-direction: column;
+    padding: 20px 10px;
+   
+}
+
+main div {
+    display: flex;
+}
+

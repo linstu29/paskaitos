@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+}
+
+h3 {
+    display: flex;
+}
+
+ul li {
+    flex-direction: row;
+
+}
