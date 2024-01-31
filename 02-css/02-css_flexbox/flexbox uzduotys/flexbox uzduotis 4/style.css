@@ -1,0 +1,106 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+.nav h3 {
+    display: flex;
+    margin: 15px;
+    color: white;
+    padding: 10px;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 15px;
+    color: white;
+    padding: 10px;
+}
+
+.first-text {
+    background-color: rgb(143, 206, 143);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.first-text p {
+    color: black;
+}
+
+.buttons {
+    display: flex;   
+}
+
+.pirmas {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 20px;
+    margin: 3px;
+    padding: 10px;
+}
+
+.antras {
+    display: flex;
+    border: 1px solid gray;
+    height: 20px;
+    margin: 3px;
+    padding: 10px;
+
+    
+}
+
+.content {
+    background-color:rgb(65, 212, 163);
+    display: flex;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.card {
+
+    margin: 20px;
+    width: 30%;
+    text-align: start;
+    
+}
+
+
+.links {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.aprasymas {
+    display: flex;
+    padding:  20px 20px;
+   
+}
+
+
+.aprasymas p {
+    display: flex;
+    margin: 15px;
+    width: 30%;
+    margin-top: 30px;
+    
+}
+
+.info {
+    margin-right: 300px;
+}

@@ -1,0 +1,83 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 10px 100px 10px 100px;
+    
+}
+
+.nav h3 {
+    display: flex;
+    margin: 15px;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 15px;
+    color: black;
+    padding: 10px;
+}
+
+main {
+background-image: url(./photos/festival.jpg);
+background-repeat: repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80vh;
+}
+
+.main-page h1 {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 700;
+    size: 80px;
+    line-height: 93.92px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.main-page p {
+    color: white;
+    font-family: Open sans;
+    font-weight: 400;
+    size: 40px;
+    line-height: 54.47px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    font-family: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    width: 232px;
+    height: 52px;
+    letter-spacing: 1px;
+    gap: 20px;
+   
+}
+
+.tickets {
+    background-color: #EB5757;
+    color: white;
+    border:1px solid black;
+   
+
+}
+
+.performers {
+    background-color: white;
+    color: #EB5757;
+    border:1px solid;
+}
+
+.footer {
+    background-color: #EB5757;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:repeat(12, fr1);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    
+}
+
+.container div {
+    border-radius: 12px;  
+}
+
+.container .row1 {
+    background-color: red; 
+    grid-column: span 6;
+}
+
+.row2 {
+    background-color: blue;  
+    grid-column: span 6; 
+}
+
+.row3 {
+    background-color: green;  
+    grid-column: span 3;  
+}
+
+.row4 {
+    background-color: purple; 
+    grid-column: span 9;    
+}
+
+.row5 {
+    background-color: yellow;
+    grid-column: span 12;     
+}

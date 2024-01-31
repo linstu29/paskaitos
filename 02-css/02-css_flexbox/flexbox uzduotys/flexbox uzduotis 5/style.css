@@ -1,0 +1,78 @@
+body {
+    font-family: Montserrat;
+}
+
+.menu {
+    
+    background-color: black;
+    padding: 16px 160px 16px 160px;
+
+}
+
+.menu-options {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    size: 19px;
+    line-height: 23.16px;
+    align-items: center;
+}
+
+.menu-options img {
+    width: 32px;
+    height: 32px;
+    top: 28px;
+    left: 739px;
+}
+
+main {
+    background-image: url("./photos/ledai.jpg");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.title {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.product {
+    color: white;
+    text-align: center;
+}
+
+
+.title h1 {
+    font-size: 64px; 
+    line-height: 78.02px;
+}
+
+.product p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.card-list {
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.card {
+    border: 3px solid #fff;
+    padding: 46px 0;
+    width: 300px;
+}
+
+
+
+

@@ -1,0 +1,44 @@
+body {
+    background-color: burlywood;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12 1fr);
+    grid-template-rows: repeat(12, 60px);
+    gap: 5px;
+}
+
+.container div {
+    border-radius: 12px;
+}
+
+.container .div1 {
+    background-color: red;
+    grid-column: span 12;
+    grid-row: span 2;
+}
+
+.container .div2 {
+    background-color: blue;
+    grid-column: span 6;
+    grid-row: span 8;
+}
+
+.container .div3 {
+    background-color: green;
+    grid-column: span 6;
+    grid-row: span 4;
+}
+
+.container .div4 {
+    background-color: blueviolet;
+    grid-column: span 3;
+    grid-row: span 4;
+}
+
+.container .div5 {
+    background-color: blueviolet;
+    grid-column: span 3;
+    grid-row: span 4;
+}

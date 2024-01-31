@@ -1,0 +1,76 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+.header {
+    background-color: grey;
+    color: white;
+    grid-column: span 12;
+    padding: 6px;
+}
+
+.sidebar {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    grid-column: span 3;
+    padding: 6px;
+}
+
+.content {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    grid-column: span 6;
+    padding: 6px;
+
+
+}
+
+.sidebar2 {
+    background-color: silver;
+    color: black;
+    grid-column: span 3;
+    padding: 6px;
+
+}
+
+
+.footer {
+    background-color: grey;
+    color: white;
+    grid-column: span 12;
+    padding: 6px;
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        grid-column: span 3;
+    }
+
+    .content {
+
+        grid-column: span 9;
+
+    }
+
+    .sidebar2 {
+        grid-column: span 12;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .sidebar {
+        grid-column: span 12;
+    }
+
+    .content {
+
+        grid-column: span 12;
+    }
+    }
