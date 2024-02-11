@@ -1,0 +1,394 @@
+.nav {
+    background-color: white;
+    width: 1440px;
+    height: 72px;
+    font-family: inter;
+}
+
+
+.links {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    gap: 20px;
+    padding: 40px;
+    margin-left: 80px;
+    text-transform: uppercase;
+}
+
+.logo {
+    text-transform: capitalize;
+}
+
+
+.magnifier {
+    margin-left: 700px;
+}
+
+.img-block {
+    position: absolute;
+    width: 822px;
+    height: 768px;
+    background-color: #F6F4F5;
+
+}
+
+h2 {
+    position: absolute;
+    width: 432px;
+    height: 110px;
+    left: 80px;
+    top: 266px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 40px;
+}
+
+p {
+    position: absolute;
+    width: 432px;
+    height: 68px;
+    left: 80px;
+    top: 392px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+.products {
+    width: 68px;
+    height: 24px;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+
+    position: absolute;
+    width: 116px;
+    height: 48px;
+    left: 80px;
+    top: 484px;
+    background-color: #32292F;
+    color: white;
+
+}
+
+
+.white-building {
+    position: absolute;
+    width: 737px;
+    height: 536px;
+    left: 623px;
+    top: 168px;
+}
+
+.bullets {
+    position: absolute;
+    width: 737px;
+    height: 536px;
+    left: 925px;
+    top: 730px;
+}
+
+h1 {
+    position: absolute;
+    width: 501px;
+    height: 48px;
+    left: 438px;
+    top: 900px;
+    font-family: Inter;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+
+
+.img-block2 {
+
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 189px;
+    top: 800px;
+    width: 410px;
+    height: 168px;
+    gap: 16px;
+}
+
+.img-block2 h2 {
+    width: 400px;
+    height: 40px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 50px;
+
+
+}
+
+.img-block2 p {
+    width: 432px;
+    height: 48px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.view-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 12px, 24px, 12px, 24px;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 10px;
+    width: 144px;
+    height: 48px;
+    border: 1px solid #32292F;
+
+    position: absolute;
+    padding-top: 7px;
+    left: 80px;
+    top: 484px;
+    color: #32292F;
+
+}
+
+.wall-con {
+    position: absolute;
+    width: 628px;
+    height: 424px;
+    left: 732px;
+    top: 1024px;
+}
+
+
+.future-building {
+    position: absolute;
+    width: 628px;
+    height: 424px;
+    left: 80px;
+    top: 1552px;
+}
+
+.img-block3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 408px;
+    height: 168px;
+    left: 843px;
+    top: 1300px;
+}
+
+
+.img-block3 h2 {
+    width: 400px;
+    height: 40px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 50px;
+
+}
+
+.img-block3 p {
+    width: 432px;
+    height: 48px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.block4 h2 {
+    position: absolute;
+    width: 450px;
+    height: 40px;
+    left: 80px;
+    top: 2152px;
+
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    color: #32292F;
+
+}
+
+.grey-wall {
+
+    position: absolute;
+    width: 845px;
+    height: 529px;
+    left: 80px;
+    top: 2240px;
+
+}
+
+.image-1 h4 {
+    position: absolute;
+    width: 360px;
+    height: 24px;
+    left: 80px;
+    top: 2785px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #32292F;
+    margin-top: 0;
+}
+
+.white-wall {
+    position: absolute;
+    width: 411px;
+    height: 528px;
+    left: 949px;
+    top: 2240px;
+}
+
+
+.image-2 h4 {
+    position: absolute;
+    width: 180px;
+    height: 24px;
+    left: 951px;
+    top: 2784px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #32292F;
+    margin-top: 0;
+}
+
+.sky-building {
+    position: absolute;
+    width: 628px;
+    height: 527px;
+    left: 80px;
+    top: 2873px;
+}
+
+.image-3 h4 {
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 80px;
+    top: 3418px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #32292F;
+    margin-top: 0;
+}
+
+.building {
+    position: absolute;
+    width: 628px;
+    height: 528px;
+    left: 732px;
+    top: 2872px;
+}
+
+.image-4 h4 {
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 732px;
+    top: 3418px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #32292F;
+    margin-top: 0;
+}
+
+
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 236px;
+    top: 3574px;
+
+}
+
+
+.footer-links {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    border: 1px solid #D6D4D5;
+
+}
+
+.address {
+    color: #32292F;
+    text-transform: capitalize;
+    margin-right: 100px;
+}
+
+.policy {
+    text-transform: capitalize;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.rights {
+    color: #32292F;
+    width: 229px;
+    height: 22px;
+    top: 192.18px;
+    left: 81px;
+    font-family: Inter;
+    font-weight: 300;
+    size: 11px;
+    line-height: 22px;
+}
+
+@media screen and (min-width: 650px) {
+    .block1 {
+        width: 100%;
+    }
+
+}

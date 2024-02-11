@@ -1,0 +1,90 @@
+.nav {
+    background-color: white;
+}
+
+.links {
+    color: black;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    margin-left: 80px;
+    gap: 30px;
+
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: #FF6978;
+    color: white;
+    margin-left: auto;
+    margin-right: 50px;
+    padding-top: 8px;
+    width: 100px;
+    height: 35px;
+    border-radius: 14px;
+}
+
+.container {
+    position: absolute;
+    width: 1224px;
+    height: 485px;
+    left: 108px;
+    top: 162px;
+
+    background: #FFEEE2;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.photo {
+    position: absolute;
+    width: 702px;
+    height: 485px;
+}
+
+.description {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 392px;
+    height: 246px;
+    left: 729px;
+    top: calc(50% - 246px/2 - 0.5px);
+}
+
+.h1 {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+.p {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.read-more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 32px;
+    gap: 10px;
+
+    width: 140px;
+    height: 44px;
+
+    background: #FF6978;
+    color: white;
+    border-radius: 14px;
+}
