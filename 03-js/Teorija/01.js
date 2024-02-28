@@ -447,9 +447,11 @@ if (failas == undefined) {
     console.log('nurodytas failas netinkamo formato');
 } */
 
-let skaicius = 23;
+/* let skaicius = 23;
+}
 
 if (skaicius % 2 == 0) {
+    let a = 5;
  console.log("yra lyginis");
 } else if (skaicius % 5 == 0) {
     console.log("dalinasi is 5"); 
@@ -457,11 +459,15 @@ if (skaicius % 2 == 0) {
     console.log("skaicius yra lygus"); 
 } else {
     console.log("Error. Nepavyko rasti tokio skaiciaus");
-}
 
 
-let a = 5;
 let b = 3;
-let c = 2;
+let c = 2; */
+
+/* let atsitiktinis = Math.random() * 10;
+let atitikitinis_apvalintas = Math.ceil(atsitiktinis);
+console.log("Testinis atsitiktinis", atsitiktinis);
+console.log("Testinis atsitiktinis apvalintas", atitikitinis_apvalintas); */
+
 
 
