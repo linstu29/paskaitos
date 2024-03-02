@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prektas</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="domProjektas.js"></script>
+    </head>
+    <body>
+        <header class="block-wrapper">
+            <h1>Parduotuvė</h1>
+        </header>
+        <div class="info-wrapper block-wrapper">
+            <h2>Prekės informacija</h2>
+            <div class="input-wrapper">
+                <label for="kremo-kaina">Veido kremo kaina:</label>
+                <input type="number" min="0" step="1" value="0"
+                    id="kremo-kaina">
+                <span class="error">Kaina negali būti žemesnė, nei 5
+                    eu</span>
+            </div>
+            <div class="input-wrapper">
+                <label for="turimas-kiekis">Esamas kiekis:</label>
+                <input type="number" min="0" step="1" value="0"
+                    id="turimas-kiekis">
+                <span class="error">Liko mažiau, nei 5 vienetai</span>
+            </div>
+            <div class="input-wrapper">
+                <label for="order-count">Užsakymų kiekis:</label>
+                <input type="number" min="0" step="1" value="0"
+                    id="order-count">
+                <span class="error">Užsakymas vykdomas nuo 2vnt</span>
+            </div>
+
+            <button id="calculate">Skaičiuoti</button>
+            <button id="reset">Iš naujo</button>
+
+        </div>
+        <div class="calc-wrapper block-wrapper">
+            <h2>Skaičiavimai</h2>
+            <div id="results">
+                <p>Kol kas nieko nėra.</p>
+            </div>
+
+        </div>
+
+    </body>
+</html>
